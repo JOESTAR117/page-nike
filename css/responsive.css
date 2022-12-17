@@ -52,6 +52,7 @@
 
     main{
         width: 100% !important;
+        height: 1950px !important;
         }
         main > .container{
             display: flex;
@@ -60,6 +61,7 @@
 
         main > img{
             width: 100% !important;
+            margin-bottom: 350px;
         }
         main > .container > p{
             font-size: 1.9em !important;
