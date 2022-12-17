@@ -2,24 +2,31 @@
 
 *{
     margin: 0;
-    border:0;
     padding: 0;
     list-style: none;
-    overflow: hidden;
 
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+    scroll-behavior: smooth;
 }
 header > nav{
     display: flex;
     flex-direction: row;
     padding: 50px 0;
-    background-color: bisque;
 }
 header > nav > ul{
     display: flex;
     flex-direction: row;
     padding: 0 130px;
 }
-header > nav > ul > li{
+header > nav > ul > li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -30,19 +37,75 @@ header > nav > ul > li{
 main{
     display: flex;
     flex-direction: row-reverse;
-
 }
 main > .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     text-align: center;
 }
+main img{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-size: 700px;
+    width: 60%;
+    
+}
 main > .container > h1{
-    margin-top: 60px;
+    margin-top: 60px 0 0 0px;
     font-family: 'Gigodu', sans-serif;
-    font-size: 101px;
+    font-size: 80px;
+    font-weight: 200;
 }
 main > .container > h2{
     font-family: 'Gowun Dodum', sans-serif;
+    font-size: 90px;
+    padding: 0 0 10px;
+    margin: 0 0 2px;
+    line-height: 162px;
+    text-transform: capitalize;
+    color: #E96D3A;
+    font-weight: 300;
+
+}
+main > .container > p{
+    font-family: 'Gowun Dodum';
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 30px;
+    margin: 0 30px;
+}
+.container .valor {
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container p > a{
+    display: flex;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gowun Dodum';
+    font-size: 0.6em;
+    box-shadow: 1px 2px 0px rgba(0, 0, 0, 0.411);
+}
+.container p > a:active{
+    box-shadow: inset 1px 2px 0px rgba(0, 0, 0, 0.425);
+    font-size: 0.5em;
 }
