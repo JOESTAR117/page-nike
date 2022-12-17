@@ -45,8 +45,6 @@
             flex-direction: column-reverse !important;
             justify-content: space-between;
             align-items: center;
-            position: fixed;
-            z-index: 10;
         }
 
         main > img{
