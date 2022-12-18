@@ -1,0 +1,19 @@
+.modo-noturno{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.navegador{
+    background-color:#000000;
+    color: rgb(255, 255, 255) ;
+}
+.lista a{
+    color: rgb(255, 255, 255) !important;
+}
+button{
+background: none;
+border: none;
+font-size: 1em;
+font-weight: bold;
+color: coral !important;
+
+}
