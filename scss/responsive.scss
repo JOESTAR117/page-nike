@@ -1,0 +1,115 @@
+@media (max-width: 1170px) {
+    main {
+        img {
+            width: 600px !important;
+            height: 700px;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+    }
+
+}
+
+@media (max-width: 1100px) {
+    main {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column-reverse !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container {
+        flex-direction: column !important;
+    }
+
+    .valor {
+        flex-direction: row !important;
+        padding: 20px;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+        a {
+            margin: 30px;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+
+
+}
+
+@media (max-width: 772px) {
+    body {
+        width: 100% !important;
+        text-align: center;
+        display: block;
+    }
+
+    header {
+        nav {
+            width: 100% !important
+        }
+
+        ul {
+            flex-direction: column !important;
+            flex-wrap: wrap;
+            text-align: center;
+            align-items: center;
+            justify-content: space-around !important;
+            display: flex;
+            font-size: 1.4em;
+        }
+
+        li {
+            padding: 10px;
+            font-weight: bold;
+        }
+
+    }
+
+    main {
+        width: 100% !important;
+
+        .container {
+            display: flex;
+            width: 100% !important;
+        }
+
+        h1 {
+            font-size: 40px !important;
+        }
+
+        img {
+            width: 100% !important;
+            margin-bottom: 35px;
+        }
+
+        p {
+            font-size: 2em !important;
+        }
+    }
+
+}
+
+@media (max-width: 442px) {
+
+    html,
+    body {
+        min-height: 100% !important;
+        min-width: 100% !important;
+    }
+
+    main {
+        margin: 0 auto !important;
+        margin-left: 5px !important;
+        display: inline-block;
+        min-width: 100% !important;
+        overflow: hidden;
+    }
+}
