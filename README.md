@@ -9,3 +9,5 @@ EN
 This week I challenged myself, after spending weeks studying I decided to start putting it into practice by myself, I looked for an image in figma and created this page from scratch, it really broke my head
 but I finally got it, I really tried hard, everything I learned I was able to put into practice, and yes I intend to make more changes and in the future I will change certain things when I start studying
 Frameworks I will probably modify Thank you all....
+
+https://user-images.githubusercontent.com/116031921/208318023-4bab06f3-04ad-44cf-be0a-00a1f9e92790.mp4
