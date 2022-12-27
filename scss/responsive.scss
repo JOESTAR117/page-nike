@@ -109,10 +109,11 @@
     main {
         margin: 0 auto !important;
         margin-left: 10px !important;
-        display: inline-block;
-        min-width: 100% !important;
-        overflow: hidden;
+        display: flex;
+        width: 100% !important;
         justify-content: center;
+        position: relative;
+        left: -10px;
     }
     .container{
         p{
