@@ -103,6 +103,7 @@
     body {
         min-height: 100% !important;
         min-width: 100% !important;
+        overflow-x: hidden;
     }
 
     main {
@@ -122,8 +123,27 @@
     }
 }
 @media (max-width: 370px) {
+
+    body{
+        overflow-x: hidden
+    }
+    html{
+        width: 62.5%;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 20px;
+    }
+    
     main{
         width: 100%;
-        margin-left: 25px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 10px;
     }
 }
